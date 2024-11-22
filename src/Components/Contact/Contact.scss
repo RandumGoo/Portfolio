@@ -1,0 +1,72 @@
+// File: Contact.scss
+.contact {
+  background-color: var(--primary-color);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 50px;
+
+  h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+
+  .contact-form {
+    width: 100%;
+    max-width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+    .form-group {
+      position: relative;
+      margin-bottom: 20px;
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px 10px 10px 0;
+        font-size: 1rem;
+        border: none;
+        border-bottom: 2px solid var(--secondary-color);
+        background: transparent;
+        color: white;
+        outline: none;
+        transition: border-color 0.2s ease, background-color 0.2s ease;
+
+        &::placeholder {
+          color: white;
+          opacity: 0.8;
+        }
+
+        &:focus {
+          border-color: white;
+        }
+      }
+
+      textarea {
+        resize: none;
+        height: 100px; // Adjust height as needed
+      }
+    }
+
+    button {
+      padding: 12px 20px;
+      font-size: 1rem;
+      background-color: var(--secondary-color);
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: white;
+        color: var(--secondary-color);
+      }
+    }
+  }
+}
