@@ -1,0 +1,50 @@
+// File: Header.scss
+.header {
+  height: var(--header-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+
+  .header-content {
+    max-width: 600px;
+    padding: 20px;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .description {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+
+      .icon {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: white;
+        text-decoration: none;
+        font-size: 2rem;
+        transition: transform 0.3s ease, color 0.3s ease;
+
+        &:hover {
+          color: black; // Change color to black on hover
+          transform: scale(1.2); // Enlarge the icon on hover
+        }
+
+        i {
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+}
