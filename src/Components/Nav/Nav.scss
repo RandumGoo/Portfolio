@@ -1,0 +1,27 @@
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    transition: top 0.3s ease-in-out;
+    z-index: 10; // Ensure the nav is on top
+  
+    &.show {
+      top: 0;
+    }
+  }
+  
+  .nav a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  
+    &:hover {
+      color: var(--primary-color);
+    }
+  }
+  
