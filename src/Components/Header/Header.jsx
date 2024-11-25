@@ -25,7 +25,7 @@ Developpeuse Web se spécialisant dans la création d'interfaces dynamiques et r
             download="Resume" 
             className="icon"
           >
-            <i className="fas fa-file-pdf"></i> Resume
+            <i className="fas fa-file-pdf"></i> CV
           </a>
         </div>
       </div>
