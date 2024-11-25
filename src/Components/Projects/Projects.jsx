@@ -11,7 +11,7 @@ function Projects() {
           <h3>Booki</h3>
           <span>Frontend</span>
           <p>Création de l'interface utilisateur d'un site d'hébérgement en utilisant HTML et CSS.</p>
-          <a href="https://github.com/your-github/booki" target="_blank" rel="noopener noreferrer" className="github-link">
+          <a href="https://github.com/RandumGoo/P2-Booki.git" target="_blank" rel="noopener noreferrer" className="github-link">
             <i className="fab fa-github"></i> GitHub
           </a>
         </div>
@@ -21,7 +21,7 @@ function Projects() {
           <h3>Kasa</h3>
           <span>Frontend</span>
           <p>Un site de location en ligne construit en utilisant React pour une interface dynamique et SASS pour le style.</p>
-          <a href="https://github.com/your-github/kasa" target="_blank" rel="noopener noreferrer" className="github-link">
+          <a href="https://github.com/RandumGoo/P5.git" target="_blank" rel="noopener noreferrer" className="github-link">
             <i className="fab fa-github"></i> GitHub
           </a>
         </div>
@@ -31,7 +31,7 @@ function Projects() {
           <h3>Sophie Bluel</h3>
           <span>Frontend</span>
           <p>Un site de Portfolio d'une photographe professionelle. Création de sa partie dynamique en utilisant JS.</p>
-          <a href="https://github.com/your-github/sophie-bluel" target="_blank" rel="noopener noreferrer" className="github-link">
+          <a href="https://github.com/RandumGoo/P3.git" target="_blank" rel="noopener noreferrer" className="github-link">
             <i className="fab fa-github"></i> GitHub
           </a>
         </div>
@@ -41,7 +41,7 @@ function Projects() {
           <h3>Mon Vieux Grimoire</h3>
           <span>Backend</span>
           <p>Création du Backend pour une librairie en ligne pour gérer la notation de livres. En utilisant Node.js, Express, et MongoDB.</p>
-          <a href="https://github.com/your-github/mon-vieux-grimoire" target="_blank" rel="noopener noreferrer" className="github-link">
+          <a href="https://github.com/RandumGoo/P6v2.git" target="_blank" rel="noopener noreferrer" className="github-link">
             <i className="fab fa-github"></i> GitHub
           </a>
         </div>
