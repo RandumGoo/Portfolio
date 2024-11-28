@@ -21,8 +21,8 @@ Developpeuse Web se spécialisant dans la création d'interfaces dynamiques et r
             <i className="fab fa-github"></i> GitHub
           </a>
           <a 
-            href="/resume.pdf" 
-            download="Resume" 
+            href="/CV_CHAAL_Zineb.pdf" 
+            download="CV_CHAAL_Zineb" 
             className="icon"
           >
             <i className="fas fa-file-pdf"></i> CV
