@@ -1,6 +1,5 @@
 // File: Contact.scss
 .contact {
-  background-color: var(--primary-color);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -9,11 +8,6 @@
   padding: 20px;
   margin-top: 50px;
 
-  h2 {
-    color: white;
-    margin-bottom: 20px;
-    font-size: 2rem;
-  }
 
   .contact-form {
     width: 100%;
@@ -34,18 +28,13 @@
         border: none;
         border-bottom: 2px solid var(--secondary-color);
         background: transparent;
-        color: white;
         outline: none;
         transition: border-color 0.2s ease, background-color 0.2s ease;
 
         &::placeholder {
-          color: white;
           opacity: 0.8;
         }
 
-        &:focus {
-          border-color: white;
-        }
       }
 
       textarea {
